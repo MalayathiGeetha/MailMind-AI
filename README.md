@@ -71,7 +71,7 @@ npm run dev
 ```
 
 ### **Project Structure**
-
+```bash
 MailMind-AI/
 ├── frontend/                 # React + Vite + shadcn
 │   ├── src/pages/
@@ -90,10 +90,11 @@ MailMind-AI/
 │   │   ├── entity/            # User + EmailHistory
 │   │   └── dto/               # Request/Response
 └── README.md
-
+```
 
 ### **🎮 Feature Deep Dive**
 **1. AI Model Switcher ⭐**
+```bash
 
 [Gemini 1.5 ⚡]  [Ollama 🆓*]  [Local Fallback 🔒]
          ✓ Active: Gemini
@@ -102,9 +103,10 @@ Live toggle between cloud/local AI
 Zero downtime - intelligent fallbacks
 
 Real-time dashboard reflects changes
+```
 
 **2. Intent Detection 🧠**
-
+```bash
 "Help, login broken!" → SUPPORT_REQUEST (98%)
 "Why this intent? → "bugs, issues & help requests"
 8 precise categories: COMPLAINT, JOB_APPLICATION, etc.
@@ -112,9 +114,10 @@ Real-time dashboard reflects changes
 Gemini-powered with local fallback
 
 Frontend + Backend sync perfectly
+```
 
 **3. User Dashboard 📊**
-
+```bash
 Total Emails: 47     Words: 12,342    Avg: 263 chars
 Recent: "Follow-up on Q4..." (Ollama)
 Active Model: Gemini 🆓
@@ -123,9 +126,10 @@ Real-time email stats + recent activity
 AI model status + quick switcher
 
 Usage insights + upgrade prompts
+```
 
 **4. Real Email Sending 📧**
-
+```bash
 To: john@company.com | Subject: Project Update
 "Hi John, quick update on deliverables..."
 ✓ Sent via Gmail → Real inbox!
@@ -134,13 +138,16 @@ Production Gmail integration
 Real inbox delivery receipts
 
 Professional email templates
+```
 
 **🔐 Security & Auth**
+```bash
 JWT Tokens - Secure all endpoints
 
 Spring Security - Role-based access
 
 HTTPS Ready - Production secure
+```
 
 **🧪 API Endpoints (13+)**
 ```bash
@@ -153,7 +160,7 @@ GET  /api/analytics               # Tone charts
 ```
 
 **📈 Production Ready**
-
+```bash
 ✅ Responsive design (Mobile → Desktop)
 ✅ Loading states + Error handling
 ✅ Toast notifications
@@ -162,6 +169,7 @@ GET  /api/analytics               # Tone charts
 ✅ Multi-AI redundancy
 ✅ Email delivery receipts
 ✅ Analytics dashboards
+```
 
 **🤝 Contributing**
 ```bash

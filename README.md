@@ -151,12 +151,22 @@ HTTPS Ready - Production secure
 
 **🧪 API Endpoints (13+)**
 ```bash
-GET  /api/user/dashboard          # Stats + provider
-PUT  /api/user/ai-provider        # Switch Gemini/Ollama
-POST /api/email/generate          # AI email
-POST /api/email/send-email        # Real delivery
-GET  /api/history/intent/FOLLOWUP # Filtered history
-GET  /api/analytics               # Tone charts
+POST /api/auth/register # Create account
+POST /api/auth/login # JWT token
+
+GET /api/user/dashboard # Stats + provider
+PUT /api/user/ai-provider # Switch Gemini/Ollama
+
+POST /api/email/generate # AI email generation
+POST /api/email/send-email # Real Gmail delivery
+
+POST /api/email/detect-intent# 8-intent classifier
+POST /api/email/summarize # Key points + deadlines
+POST /api/email/subject # Click-worthy subjects
+
+GET /api/history # All emails
+GET /api/history/intent/{intent} # Filtered
+GET /api/analytics # Tone/intent charts
 ```
 
 **📈 Production Ready**

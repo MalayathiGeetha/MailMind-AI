@@ -1,0 +1,6 @@
+package com.email.dto;
+
+public enum EmailIntent {
+    COMPLAINT, JOB_APPLICATION, INTERVIEW_REPLY, FOLLOW_UP,
+    SALES_INQUIRY, SUPPORT_REQUEST, GREETING, OTHER
+}
